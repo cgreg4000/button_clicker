@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header Start-->
+        <header class="flexed-center">
+            <h1>Dojonary</h1>
+            <div class="search border">Search</div>
+            <button class="login buttons border" onclick="logout(this)">Login</button>
+        </header>
+        <!-- Header End-->
+
+        <!-- Main Start-->
+        <main class="flexed-start">
+            <!-- Section Start-->
+            <section>
+                <!-- Entry 1 Start-->
+                <div class="entry flexed-center border">
+                    <div>
+                        <ul>
+                            <li>
+                                <h1>ninja</h1>
+                            </li>
+                            <li class="important-words"><em>noun</em></li>
+                            <li>Plural: <em>ninjas</em></li>
+                        </ul>
+                        <button class="likes buttons border" onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+                    <p class="important-words">A practitioner skilled in the 
+                        <a href="">Japanese</a> art of <a href="">ninjutsu</a>
+                    </p>
+                </div>
+                <!-- Entry 1 End-->
+                <!-- Entry 2 Start-->
+                <div class="entry flexed-center border">
+                    <div>
+                        <ul>
+                            <li>
+                                <h1>ninja</h1>
+                            </li>
+                            <li class="important-words"><em>noun</em></li>
+                            <li>Plural: <em>ninjas</em></li>
+                        </ul>
+                        <button class="likes buttons border" onclick="alert('Ninja was liked')">37 likes</button>
+                    </div>
+                    <p class="important-words">A <a href="">programmer</a> who break down problems with 
+                        <a href="">zen</a>-like focus</p>
+                </div>
+                <!-- Entry 2 End-->
+            </section>
+            <!-- Section End-->
+            <!-- Aside Start-->
+            <aside class="border">
+                <p>Dojonary is defined by <strong>YOU</strong></p>
+                <button class="add-definition important-words buttons border" onclick="removeButton(this)">Add
+                    Definition</button>
+            </aside>
+            <!-- Aside End-->
+        </main>
+        <!-- Main End-->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
